@@ -5,7 +5,7 @@ import { AiOutlineClose, AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
-function DrawerNav(props) {
+function DrawerNav(props: { nav: any; handleNav: any; }) {
   const { nav, handleNav } = props;
 
   return (
