@@ -41,13 +41,13 @@ const Navbar = ( ) => {
           <div className="flex justify-between items-center text-2xl">
             <ul style={{ color: `${linkColor}` }} className=" pr-5 hidden md:flex">
               <Link href="/">
-               <li className="ml-10 pr-5 font-bold text-sm uppercase hover:border-b">Home</li>
+               <li className="ml-10 font-bold text-sm uppercase hover:border-b">Home</li>
               </Link>
               <Link href="/#about">
-               <li className="ml-10 pr-5 font-bold text-sm uppercase hover:border-b">About</li>
+               <li className="ml-10 font-bold text-sm uppercase hover:border-b">About</li>
               </Link>
               <Link href="/#contact">
-               <li className="ml-10 pr-5 font-bold text-sm uppercase hover:border-b">Contact</li>
+               <li className="ml-10 font-bold text-sm uppercase hover:border-b">Contact</li>
               </Link>
             </ul>
           </div>
