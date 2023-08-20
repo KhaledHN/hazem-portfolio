@@ -27,10 +27,8 @@ const Navbar = ( ) => {
   }, []);
 
   return (
-    <div
-      style={{ backgroundColor: `${navBg}` }}
-      className=" h-20 "
-    >
+    <div className=" bg-[#dbae7c] h-20 "
+>
     
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
 
