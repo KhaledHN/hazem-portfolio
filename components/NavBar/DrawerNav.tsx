@@ -17,20 +17,20 @@ function DrawerNav(props: { nav: any; handleNav: any; }) {
       <div
         className={
           nav
-            ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#dbae7c] p-10 ease-in duration-500"
-            : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
+            ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-white p-10 ease-in duration-500"
+            : "fixed left-[-100%] top-0 h-screen p-10 ease-in duration-500"
         }
       >
         <div>
           <div className="flex w-full items-center justify-between">
             <Link onClick={handleNav} href="">
-              <p className="text-2xl py-8 font-bold">
-                <span className="text-[#ffffff] ">Hazem</span>Khaled
+              <p className="text-2xl text-black py-8 font-bold">
+              Hazem <span className="text-[#a1a1a1] ">Khaled</span>
               </p>
             </Link>
             <div
               onClick={handleNav}
-              className=" scale-125 shadow-[#524141] p-3 cursor-pointer"
+              className=" scale-125 text-black shadow-[#524141] p-3 cursor-pointer"
             >
               <AiOutlineClose />
             </div>
@@ -41,28 +41,31 @@ function DrawerNav(props: { nav: any; handleNav: any; }) {
           <div>
             <ul className="py-4 flex-col">
               <Link href="">
-                <li onClick={handleNav} className="py-4 font-bold">
+                <li onClick={handleNav} className="py-4 text-black font-bold">
                   {" "}
                   Home
                 </li>
               </Link>
               <Link href="/#about">
-                <li onClick={handleNav} className="py-4 font-bold">
+                <li onClick={handleNav} className="py-4 text-black font-bold">
                   {" "}
                   About
                 </li>
               </Link>
               <Link href="/#contact">
-                <li onClick={handleNav} className="py-4 font-bold">
+                <li onClick={handleNav} className="py-4 text-black font-bold">
                   {" "}
                   Contact
                 </li>
               </Link>
             </ul>
+            
+            
             <div className=" pt-40">
-              <p className="uppercase  tracking-widest text-[#524141]">
-                Lets Connect
-              </p>
+            <div className="border-b border-[#524141] my-4">
+            
+            </div>
+              
               <div className="flex items-center justify-between my-4 w-full sm:w[80%] ">
                 <div className=" p-3 scale-125 cursor-pointer hover:scale-105 ease-in duration-300">
                   <Link href="https://www.linkedin.com/in/khaled-hazem-711527223/">
