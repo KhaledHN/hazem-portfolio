@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { AiOutlineClose, AiOutlineMail } from "react-icons/ai";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { AiOutlineClose} from "react-icons/ai";
+import { FaGithub, FaLinkedinIn, FaInstagram, FaFacebook } from "react-icons/fa";
+
 
 function DrawerNav(props: { nav: any; handleNav: any; }) {
   const { nav, handleNav } = props;
@@ -68,23 +68,23 @@ function DrawerNav(props: { nav: any; handleNav: any; }) {
               
               <div className="flex items-center justify-between my-4 w-full sm:w[80%] ">
                 <div className=" p-3 scale-125 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <Link href="https://www.linkedin.com/in/khaled-hazem-711527223/">
+                  <Link href="https://www.linkedin.com/in/hazemkhaled">
                     <FaLinkedinIn />
                   </Link>
                 </div>
                 <div className=" p-3 scale-125 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <Link href="https://github.com/KhaledHN">
+                  <Link href="https://github.com/hazemkhaled">
                     <FaGithub />
                   </Link>
                 </div>
                 <div className=" p-3 scale-125 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <Link href="https://mail.google.com/mail/u/0/#sent?compose=CllgCJqXxhFbpRhxNlVPhLsSwWrlkqhLtXRKFkCtRfxVBnfFHZrnmZNmzdTStkWKskMNjXHPRhg">
-                    <AiOutlineMail />
+                  <Link href="https://instagram.com/hazemkhaled">
+                    <FaInstagram />
                   </Link>
                 </div>
                 <div className=" p-3 scale-125 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <Link href="https://mail.google.com/mail/u/0/#sent?compose=CllgCJqXxhFbpRhxNlVPhLsSwWrlkqhLtXRKFkCtRfxVBnfFHZrnmZNmzdTStkWKskMNjXHPRhg">
-                    <BsFillPersonLinesFill />
+                  <Link href="https://facebook.com/hazemkhaled">
+                    <FaFacebook />
                   </Link>
                 </div>
               </div>
