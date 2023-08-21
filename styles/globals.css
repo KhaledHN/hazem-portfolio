@@ -9,14 +9,14 @@
 
 @layer base{
   body {
-    @apply bg-[#dbae7c] text-[#1f2937] tracking-wide
+    @apply bg-black tracking-wide
   }
 
   h1, h2, h3, h4, h5, h6 {
     @apply font-bold
   }
   p, li, h1{
-    color: #524141;
+    color: white;
   }
 
   h1{
@@ -34,5 +34,5 @@
 }
 
 button{
-  @apply  rounded-xl uppercase bg-gradient-to-r from-[#dbae7c] to-[#524141] text-white
+  @apply  rounded-xl uppercase bg-gradient-to-r from-[#989898] to-[#464646] text-white
 }

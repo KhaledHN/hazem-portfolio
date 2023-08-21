@@ -27,13 +27,13 @@ const Navbar = ( ) => {
   }, []);
 
   return (
-    <div className=" bg-[#dbae7c] h-20 "
+    <div className=" bg-black h-20 "
 >
     
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
 
         <p className="text-2xl pl-5 font-bold">
-          <span className="text-[#ffffff] ">Hazem</span>Khaled
+         Hazem <span className="text-[#a1a1a1] ">Khaled</span>
         </p>
 
         {/* desktop menu */}

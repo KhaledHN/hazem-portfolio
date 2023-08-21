@@ -9,7 +9,7 @@ const Main = () => {
       <div className="max-w-[1240px] w-full h-full mx-auto  flex justify-center items-start ">
         <div>
           <h1 className="pt-20 pb-4">
-            Hazem Khaled
+            Hazem <span className="text-[#a1a1a1] ">Khaled</span> 
           </h1>
           <p className="py-4 max-w-[70%] font-bold m-auto">
             Are you trying to turn your good idea into a real product in the
