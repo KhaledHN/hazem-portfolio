@@ -79,8 +79,8 @@ const Contact = () => {
                     </Link>
                   </div>
                 </div>
-                <Link  className=" text-white underline font-bold" href="https://hazemkhaled.com">
-                  <p> <span className=" text-[#a1a1a1] ">Archive blog (Arabic)</span>  </p>
+                <Link  className=" text-white underline font-bold" href="https://archive.hazemkhaled.com">
+                  <p> <span className=" text-[#a1a1a1] ">Archive blog (عربي)</span>  </p>
                 </Link>
               </div>
             </div>

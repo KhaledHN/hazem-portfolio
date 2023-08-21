@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Hazem Khaled </title>
+        <title>Hazem Khaled</title>
         <link rel="icon" href="/assets/navLgo.png" />
       </Head>
       <Main />
