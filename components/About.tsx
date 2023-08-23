@@ -10,10 +10,9 @@ const About = () => {
     >
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
-          <p className="uppercase text-xl tracking-widest text-[#524141]">
+          <h2 className="uppercase text-xl font-bold tracking-widest pb-5 text-[#524141]">
             About
-          </p>
-          <h2 className="py-4">Who I Am</h2>
+          </h2>
           <p className="py-2 text-gray-600">
             I have always had a knack for technology and working with computers.
             In 2019 I started working with c# to make small games on Unity, then

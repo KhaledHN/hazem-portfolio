@@ -11,6 +11,13 @@ const Navbar = ( ) => {
   const [linkColor, setLinkColor] = useState("#1f2937");
   const router = useRouter();
 
+  useEffect(() => {
+   {
+      setNavBg("#131313");
+      setLinkColor("#1f2937");
+    }
+  },);
+
 
   const handleNav = () => {
     setNav(!nav);
@@ -27,8 +34,12 @@ const Navbar = ( ) => {
   }, []);
 
   return (
-    <div className=" bg-black h-20 "
->
+    <div
+      style={{ backgroundColor: `${navBg}` }}
+      className={`${
+        shadow ? "shadow-xl" : ""
+      } fixed w-full h-20 z-[100] duration-200`}
+    >
     
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
 
