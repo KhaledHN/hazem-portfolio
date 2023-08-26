@@ -6,7 +6,7 @@ const Main = () => {
   return (
     <div id="home" className="w-full md:h-screen text-center  ">
       <Navbar/>
-      <div className="max-w-[1240px] pt-20 pb-20 w-full h-full mx-auto flex justify-center items-center ">
+      <div className="max-w-[1240px] pb-20 w-full h-full mx-auto flex justify-center items-center ">
         <div className="pt-10">
           <h1 className=" pb-4">
             Hazem <span className="text-[#a1a1a1] ">Khaled</span> 
