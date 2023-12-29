@@ -16,7 +16,7 @@ const Navbar = ( ) => {
       setNavBg("#131313");
       setLinkColor("#1f2937");
     }
-  },);
+  }, [],);
 
 
   const handleNav = () => {
