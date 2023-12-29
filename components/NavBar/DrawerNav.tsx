@@ -1,6 +1,4 @@
-import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 import { AiOutlineClose} from "react-icons/ai";
 import { FaGithub, FaLinkedinIn, FaInstagram, FaFacebook } from "react-icons/fa";
 

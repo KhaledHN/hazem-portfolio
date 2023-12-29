@@ -1,7 +1,9 @@
+'use client';
+
 import Link from "next/link";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 import DrawerNav from "./DrawerNav";
 
 const Navbar = ( ) => {
