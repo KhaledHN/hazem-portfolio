@@ -13,13 +13,13 @@ const About = () => {
           <h2 className="uppercase text-xl font-bold tracking-widest pb-5 text-[#524141]">
             About
           </h2>
-          <p className="py-2 text-gray-600">
+          {/* <p className="py-2 text-gray-600">
             I have always had a knack for technology and working with computers.
             In 2019 I started working with c# to make small games on Unity, then
             I started working with HTML & CSS to make some minor edits on a
             small website that I was operating. What thought was just a few
             small edits turned into love for programming.
-          </p>
+          </p> */}
           <p className="py-2 text-gray-600">
             Fascinated with how intricate programming can be I was quickly drawn
             to learn more. I started learning javascript and was even more
