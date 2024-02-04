@@ -13,6 +13,7 @@ export default function Home() {
       <Head>
         <title>Hazem Khaled</title>
         <link rel="icon" href="/assets/navLgo.png" />
+        <meta name="msvalidate.01" content="1222E4F8F8FB6C0514814BA77F631931" />
       </Head>
       <Main />
       <About />
