@@ -1,0 +1,10 @@
+{
+  "name": "Hazem Khaled Website",
+  "short_name": "Hazem",
+  "theme_color": "#fff",
+  "background_color": "#2962FF",
+  "display": "browser",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/"
+}
