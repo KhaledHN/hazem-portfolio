@@ -1,9 +1,13 @@
 import Link from "next/link";
-import { AiOutlineClose} from "react-icons/ai";
-import { FaGithub, FaLinkedinIn, FaInstagram, FaFacebook } from "react-icons/fa";
+import { AiOutlineClose } from "react-icons/ai";
+import {
+  FaGithub,
+  FaLinkedinIn,
+  FaInstagram,
+  FaFacebook,
+} from "react-icons/fa";
 
-
-function DrawerNav(props: { nav: any; handleNav: any; }) {
+function DrawerNav(props: { nav: any; handleNav: any }) {
   const { nav, handleNav } = props;
 
   return (
@@ -23,7 +27,7 @@ function DrawerNav(props: { nav: any; handleNav: any; }) {
           <div className="flex w-full items-center justify-between">
             <Link onClick={handleNav} href="">
               <p className="text-2xl text-black py-8 font-bold">
-              Hazem <span className="text-[#a1a1a1] ">Khaled</span>
+                Hazem <span className="text-[#a1a1a1] ">Khaled</span>
               </p>
             </Link>
             <div
@@ -33,9 +37,7 @@ function DrawerNav(props: { nav: any; handleNav: any; }) {
               <AiOutlineClose />
             </div>
           </div>
-          <div className="border-b border-[#524141] my-4">
-            
-          </div>
+          <div className="border-b border-[#524141] my-4"></div>
           <div>
             <ul className="py-4 flex-col">
               <Link href="">
@@ -57,13 +59,10 @@ function DrawerNav(props: { nav: any; handleNav: any; }) {
                 </li>
               </Link>
             </ul>
-            
-            
+
             <div className=" pt-40">
-            <div className="border-b border-[#524141] my-4">
-            
-            </div>
-              
+              <div className="border-b border-[#524141] my-4"></div>
+
               <div className="flex items-center justify-between my-4 w-full sm:w[80%] ">
                 <div className=" p-3 scale-125 cursor-pointer hover:scale-105 ease-in duration-300">
                   <Link href="https://www.linkedin.com/in/hazemkhaled">
