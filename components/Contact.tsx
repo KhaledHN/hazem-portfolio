@@ -1,14 +1,13 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { VscGithub } from "react-icons/vsc";
 import { useForm, ValidationError } from "@formspree/react";
 import {
-  FaFacebook,
+  FaLinkedin,
+  FaTwitter,
   FaGithub,
   FaInstagram,
-  FaLinkedinIn,
-  FaTwitter,
+  FaFacebook,
   FaYoutube,
 } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
@@ -57,7 +56,7 @@ const Contact = () => {
                 <div className="flex items-center justify-between py-4">
                   <div className=" text-[#0066C8] p-5 cursor-pointer hover:scale-110 ease-in duration-300">
                     <Link href="https://www.linkedin.com/in/hazemkhaled/">
-                      <FaLinkedinIn />
+                      <FaLinkedin />
                     </Link>
                   </div>
                   <div className=" text-[#1D9BF0] scale-125 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
@@ -67,7 +66,7 @@ const Contact = () => {
                   </div>
                   <div className=" text-[#008DD2] scale-125 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
                     <Link href="https://github.com/hazemkhaled">
-                      <VscGithub />
+                      <FaGithub />
                     </Link>
                   </div>
                   <div className=" text-[#d62976] scale-125 p-5 cursor-pointer hover:scale-110 ease-in duration-300">

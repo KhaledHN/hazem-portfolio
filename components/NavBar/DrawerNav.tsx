@@ -1,11 +1,6 @@
 import Link from "next/link";
 import { AiOutlineClose } from "react-icons/ai";
-import {
-  FaGithub,
-  FaLinkedinIn,
-  FaInstagram,
-  FaFacebook,
-} from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaInstagram, FaFacebook } from "react-icons/fa";
 
 function DrawerNav(props: { nav: any; handleNav: any }) {
   const { nav, handleNav } = props;
@@ -66,7 +61,7 @@ function DrawerNav(props: { nav: any; handleNav: any }) {
               <div className="flex items-center justify-between my-4 w-full sm:w[80%] ">
                 <div className=" p-3 scale-125 cursor-pointer hover:scale-105 ease-in duration-300">
                   <Link href="https://www.linkedin.com/in/hazemkhaled">
-                    <FaLinkedinIn />
+                    <FaLinkedin />
                   </Link>
                 </div>
                 <div className=" p-3 scale-125 cursor-pointer hover:scale-105 ease-in duration-300">
