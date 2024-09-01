@@ -1,10 +1,10 @@
 {
   "name": "hazem-portfolio",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "engines": {
     "node": ">=18",
-    "npm": ">=8"
+    "pnpm": "9"
   },
   "scripts": {
     "dev": "next dev",
