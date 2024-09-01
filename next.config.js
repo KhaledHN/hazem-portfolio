@@ -1,11 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export',
-    distDir: 'out',
-    images: {
-      loader: 'custom',
-      loaderFile: './imageLoader.js',
-    },
+    // output: 'export',
+    distDir: 'out'
 }
 
 module.exports = nextConfig
