@@ -1,3 +1,8 @@
 {
-  "cSpell.words": ["Hazem", "Khaled"]
+  "cSpell.words": [
+    "Hazem",
+    "Khaled"
+  ],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
 }
