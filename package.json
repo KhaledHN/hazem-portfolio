@@ -9,6 +9,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "pages:build": "pnpm dlx @cloudflare/next-on-pages",
+    "preview": "pnpm pages:build && pnpm dlx wrangler pages dev",
     "lint": "next lint"
   },
   "dependencies": {
