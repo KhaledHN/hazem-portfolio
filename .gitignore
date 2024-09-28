@@ -34,3 +34,6 @@ yarn-error.log*
 *.tsbuildinfo
 
 analyze
+
+# Cloudflare
+.wrangler
