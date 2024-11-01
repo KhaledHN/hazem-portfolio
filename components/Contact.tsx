@@ -28,10 +28,10 @@ const Contact = () => {
   return (
     <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 pt-16 pb-5 w-full ">
-        <p className="text-xl tracking-widest uppercase text-white ">Contact</p>
+        <p className="text-xl tracking-widest uppercase text-[#333333] ">Contact</p>
         <div className="grid pt-5 lg:grid-cols-5 gap-8">
           {/* left */}
-          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-sm shadow-white rounded-md p-4 ">
+          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-sm shadow-[#333333] rounded-md p-4 ">
             <div className=" lg:p-3 h-full ">
               <div>
                 <Image
@@ -43,7 +43,7 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className="py-2 text-white">
+                <h2 className="py-2 text-[#333333]">
                   Hazem <span className="text-[#a1a1a1] ">Khaled</span>{" "}
                 </h2>
                 <p>
@@ -86,7 +86,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <Link
-                  className=" text-white underline font-bold"
+                  className=" text-[#333333] underline font-bold"
                   href="https://archive.hazemkhaled.com"
                 >
                   <p>
@@ -101,7 +101,7 @@ const Contact = () => {
           </div>
 
           {/* right */}
-          <div className=" col-span-3 w-full h-auto shadow-sm shadow-white rounded-md lg:p-4">
+          <div className=" col-span-3 w-full h-auto shadow-sm shadow-[#333333] rounded-md lg:p-4">
             <div className="p-4">
               <form onSubmit={handleSubmit}>
                 <div className="flex flex-col py-2">
@@ -117,7 +117,7 @@ const Contact = () => {
                     </Link>{" "}
                   </p>
                   <div className="flex flex-col">
-                    <label className=" text-white uppercase text-sm py-2">
+                    <label className=" text-[#333333] uppercase text-sm py-2">
                       Name
                     </label>
                     <input
@@ -134,7 +134,7 @@ const Contact = () => {
                     errors={state.errors}
                   />
 
-                  <div className="text-white flex flex-col py-2">
+                  <div className="text-[#333333] flex flex-col py-2">
                     <label className="uppercase text-sm py-2">Email</label>
                     <input
                       className="border-2 text-black rounded-lg p-3 flex border-[#989898] "
@@ -150,7 +150,7 @@ const Contact = () => {
                     errors={state.errors}
                   />
 
-                  <div className="text-white flex flex-col py-2">
+                  <div className="text-[#333333] flex flex-col py-2">
                     <label className="uppercase text-sm py-2">Message</label>
                     <textarea
                       className="border-2 text-black rounded-lg p-3 border-[#989898] "
@@ -164,7 +164,7 @@ const Contact = () => {
                     field="message"
                     errors={state.errors}
                   />
-                  <div className="w-full p-4 text-center text-white rounded-md mt-4 bg-gradient-to-r from-[#989898] to-[#464646] ">
+                  <div className="w-full p-4 text-center text-[#333333] rounded-md mt-4 bg-gradient-to-r from-[#989898] to-[#464646] ">
                     <button type="submit" disabled={state.submitting}>
                       <div className="w-full">Send Message</div>
                     </button>
@@ -182,7 +182,7 @@ const Contact = () => {
           <Link href="/">
             <div className=" scale-200 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
               <HiOutlineChevronDoubleUp
-                className=" h-5 w-5 text-white"
+                className=" h-5 w-5 text-[#333333]"
                 scale={30}
               />
             </div>
@@ -192,7 +192,7 @@ const Contact = () => {
               Developed by{" "}
               <Link href="https://khaledhazem.vercel.app">
                 {" "}
-                <span className="underline text-white">
+                <span className="underline text-[#333333]">
                   <span className="text-[#a1a1a1] ">Khaled Hazem</span>{" "}
                 </span>{" "}
               </Link>{" "}

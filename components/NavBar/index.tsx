@@ -9,14 +9,14 @@ import DrawerNav from "./DrawerNav";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState("#ecf0f3");
-  const [linkColor, setLinkColor] = useState("#1f2937");
+  const [navBg, setNavBg] = useState("#FF7F50");
+  const [linkColor, setLinkColor] = useState("#333333");
   const router = useRouter();
 
   useEffect(() => {
     {
-      setNavBg("#131313");
-      setLinkColor("#1f2937");
+      setNavBg("#FF7F50");
+      setLinkColor("#333333");
     }
   }, []);
 

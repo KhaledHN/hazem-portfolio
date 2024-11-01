@@ -9,7 +9,7 @@ html {
 
 @layer base {
   body {
-    @apply bg-black tracking-wide;
+    @apply bg-gray-100 tracking-wide;
   }
 
   h1,
@@ -23,7 +23,7 @@ html {
   p,
   li,
   h1 {
-    color: white;
+    color: #333333;
   }
 
   h1 {
@@ -40,5 +40,5 @@ html {
 }
 
 button {
-  @apply rounded-xl uppercase bg-gradient-to-r from-[#989898] to-[#464646] text-white;
+  @apply rounded-xl uppercase bg-gradient-to-r from-[#FF7F50] to-[#FF4500] text-white;
 }
