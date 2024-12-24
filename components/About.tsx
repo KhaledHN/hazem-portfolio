@@ -20,7 +20,7 @@ const About = () => {
             spending my time building projects with REACT JS, NEXT JS, and
             learning new technologies.
           </p>
-          <p className="py-2 text-[#333333] underline curser-pointer">
+          <p className="py-2 text-[#333333] underline cursor-pointer">
             <Link href="/#projects">Check out some of my latest projects.</Link>
           </p>
         </div>
