@@ -7,8 +7,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Hazem Khaled",
-  description: "Scaling things",
+  title: "Hazem Khaled - Portfolio",
+  description: "Welcome to Hazem Khaled's portfolio website. Explore my projects, testimonials, and more.",
 };
 
 export default function RootLayout({

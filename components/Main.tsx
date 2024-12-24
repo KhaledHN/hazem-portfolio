@@ -37,6 +37,32 @@ const Main = () => {
           </p>
         </div>
       </div>
+      <div className="max-w-[1240px] pb-20 w-full h-full mx-auto flex justify-center items-center ">
+        <div className="pt-10">
+          <h2 className="pb-4">Projects</h2>
+          <p className="py-4 max-w-[70%] font-bold m-auto">
+            Here are some of my latest projects.
+          </p>
+          <ul className="list-disc list-inside">
+            <li>Project 1: Description of project 1.</li>
+            <li>Project 2: Description of project 2.</li>
+            <li>Project 3: Description of project 3.</li>
+          </ul>
+        </div>
+      </div>
+      <div className="max-w-[1240px] pb-20 w-full h-full mx-auto flex justify-center items-center ">
+        <div className="pt-10">
+          <h2 className="pb-4">Testimonials</h2>
+          <p className="py-4 max-w-[70%] font-bold m-auto">
+            Here are some testimonials from my clients.
+          </p>
+          <ul className="list-disc list-inside">
+            <li>Client 1: Testimonial from client 1.</li>
+            <li>Client 2: Testimonial from client 2.</li>
+            <li>Client 3: Testimonial from client 3.</li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 };
